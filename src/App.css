@@ -1,0 +1,17 @@
+.profile__avatar{
+  border-radius: 50%;
+  height: 320px;
+  width: 320px;
+}
+.circular--square {
+  height: 250px;
+  width: 250px;
+  background-image: url(./assets/img/img.jpeg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.perfil-data{
+  display: flex;
+  flex-direction: column;
+}
