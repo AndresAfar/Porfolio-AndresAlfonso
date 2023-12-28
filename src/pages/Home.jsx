@@ -37,8 +37,8 @@ export const Home = () => {
             <div className="my-8  sm:w-full min-w-[105px] rounded-xl shadow-lg dark:shadow-gray-900 bg-[#4e4242] dark:bg-gray-800 duration-300 hover:-translate-y-1 border-2 border-[#e26767]">
               <a _href="link" className="cursor-pointer ">
                 <figure>
-                  <a href="https://pypi.org/project/django-times/" target="_blank">
-                    <img className="proorddo rounded-t-lg h-48 w-full aspect-auto" loading="lazy"/>
+                  <a href="https://github.com/AndresAfar/orddoOld" target="_blank">
+                    <img className="proorddo rounded-t-lg h-48 w-full aspect-auto" />
                   </a>
                   <figcaption className="p-4 block">
                     <a href="https://github.com/AndresAfar/orddoOld" target='_blank' className="text-[20px] md:text-[20px] mb-4 font-bold leading-relaxed  dark:text-gray-300 hover:underline">OrderPos</a>
@@ -61,9 +61,9 @@ export const Home = () => {
             <div className="my-8  sm:w-full min-w-[105px] rounded-xl shadow-lg dark:shadow-gray-900 bg-[#4e4242] dark:bg-gray-800 duration-300 hover:-translate-y-1 border-2 border-[#e26767]">
               <a _href="link" className="cursor-pointer">
                 <figure>
-                <a href="https://pypi.org/project/django-times/" target="_blank">
-                        <img className="rounded-t-lg h-48 w-full object-cover object-center" src="https://images.ctfassets.net/23aumh6u8s0i/6ubUHRD1qfolOVHxiBfjZ7/4e704f48dc5b0104d0c380fec1fe9b9e/django" alt="Django Times"/>
-                    </a>
+                  <a href="https://pypi.org/project/django-times/" target="_blank">
+                    <img className="rounded-t-lg h-48 w-full object-cover object-center" src="https://images.ctfassets.net/23aumh6u8s0i/6ubUHRD1qfolOVHxiBfjZ7/4e704f48dc5b0104d0c380fec1fe9b9e/django" alt="Django Times"/>
+                  </a>
                   <figcaption className="p-4">
                     <p className="text-sm sm:text-lg mb-4 font-bold leading-relaxed  dark:text-gray-300">asdasdsad</p>
                     <small className="text-xs sm:text-base leading-5  dark:text-gray-400"> asdasdasd</small>
