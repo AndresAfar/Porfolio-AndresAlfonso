@@ -1,7 +1,7 @@
 import React from 'react'
 
-
 export const Home = () => {
+
   return (
     <div className='container sm: w-2/3'>
       <section className='perfil'>
@@ -26,7 +26,7 @@ export const Home = () => {
           <h2 className='about-me-tittle text-2xl md:text-4xl font-medium'>Sobre mi</h2>
           <div className='about-me-item text-[16px] md:text-[20px] text-pretty'>
             <p>Mi viaje está marcado por la pasión por el skateboarding, una forma de expresión que me enseñó a abrazar el riesgo y la innovación. Además, mi amor por los videojuegos de estrategia en tiempo real ha cultivado mi habilidad para pensar de manera táctica y resolver problemas de forma creativa. Combinando estas experiencias con mi dedicación al desarrollo web, encuentro una sinergia única entre la creatividad, la lógica y la tecnología.</p>
-            <p>Como apasionado del desarrollo web, he trabajado con diversas tecnologías, incluyendo Python, MySQL, JavaScript, ReactJs y Java. Estas herramientas han sido los cimientos sobre los cuales he construido proyectos significativos, aprovechando su versatilidad y potencial para crear soluciones innovadoras.</p>
+            <p>Como apasionado del desarrollo web, he trabajado con diversas tecnologías, incluyendo Python, MySQL, JavaScript, ReactJs y un  poco de Java. Estas herramientas han sido los cimientos sobre los cuales he construido proyectos significativos, aprovechando su versatilidad y potencial para crear soluciones innovadoras.</p>
           </div>
         </div>
       </section>
@@ -37,12 +37,23 @@ export const Home = () => {
             <div className="my-8  sm:w-full min-w-[105px] rounded-xl shadow-lg dark:shadow-gray-900 bg-[#4e4242] dark:bg-gray-800 duration-300 hover:-translate-y-1 border-2 border-[#e26767]">
               <a _href="link" className="cursor-pointer ">
                 <figure>
-                <a href="https://pypi.org/project/django-times/" target="_blank">
-                        <img className="rounded-t-lg h-48 w-full object-cover object-center" src="https://images.ctfassets.net/23aumh6u8s0i/6ubUHRD1qfolOVHxiBfjZ7/4e704f48dc5b0104d0c380fec1fe9b9e/django" alt="Django Times"/>
-                    </a>
-                  <figcaption className="p-4">
-                    <p className="text-[16px] md:text-[20px] mb-4 font-bold leading-relaxed  dark:text-gray-300">asdasdsad</p>
-                    <small className="text-xs sm:text-base leading-5  dark:text-gray-400"> asdasdasd</small>
+                  <a href="https://pypi.org/project/django-times/" target="_blank">
+                    <img className="proorddo rounded-t-lg h-48 w-full aspect-auto" loading="lazy"/>
+                  </a>
+                  <figcaption className="p-4 block">
+                    <a href="https://github.com/AndresAfar/orddoOld" target='_blank' className="text-[20px] md:text-[20px] mb-4 font-bold leading-relaxed  dark:text-gray-300 hover:underline">OrderPos</a>
+                    <p className='text-sm sm:text-base leading-5 dark:text-gray-400'> Sistema POS para toma de pedidos de restaurante.</p>
+                    <div className='inline-flex flex-wrap justify-between p-2 gap-2'>
+                      <div className='rounded-full py-1 text-sm font-medium px-3  text-red-300 bg-red-300/10'>
+                        PHP
+                      </div>
+                      <div className='rounded-full py-1 text-sm font-medium px-3  text-red-300 bg-red-300/10'>
+                        JavaScript
+                      </div>
+                      <div className='rounded-full py-1 text-sm font-medium px-3  text-red-300 bg-red-300/10'>
+                        Bootstrap
+                      </div>
+                    </div>
                   </figcaption>
                 </figure>
               </a>
@@ -101,13 +112,21 @@ export const Home = () => {
               </svg>
               <h5 className="text-sm lg:text-md font-medium mt-2">Python</h5>
             </div>
+            <div className="text-red-300/80 p-2 bg-bunker-800/10 rounded-lg flex flex-col items-center justify-center">
+              <svg className='text-5xl' fill="#cd9798" width="1em" height="1em" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#cd9798"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" stroke="#CCCCCC" strokeWidth="0.064"></g><g id="SVGRepo_iconCarrier"> <title>pandas</title> <path d="M11.849 2.813h3.269v6.787h-3.268zM11.849 16.755h3.269v6.789h-3.268zM11.849 11.582h3.269v3.203h-3.268zM6.598 8.393h3.268v22.563h-3.269zM16.992 22.356h3.269v6.787h-3.269zM16.992 8.401h3.269v6.787h-3.269zM16.992 17.171h3.269v3.203h-3.269zM22.134 1.045h3.269v22.563h-3.269z"></path> </g></svg>
+              <h5 className="text-sm lg:text-md font-medium mt-2">Pandas</h5>
+            </div>
+            <div className="text-red-300/80 p-2 bg-bunker-800/10 rounded-lg flex flex-col items-center justify-center">
+              <svg className='text-5xl' fill="currentColor" stroke="currentColor"width="2em" height="1em" viewBox="0 -2 26 26" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="m24.129 23.412-.508-.484c-.251-.331-.518-.624-.809-.891l-.005-.004q-.448-.407-.931-.774-.387-.266-1.064-.641c-.371-.167-.661-.46-.818-.824l-.004-.01-.048-.024c.212-.021.406-.06.592-.115l-.023.006.57-.157c.236-.074.509-.122.792-.133h.006c.298-.012.579-.06.847-.139l-.025.006q.194-.048.399-.109t.351-.109v-.169q-.145-.217-.351-.496c-.131-.178-.278-.333-.443-.468l-.005-.004q-.629-.556-1.303-1.076c-.396-.309-.845-.624-1.311-.916l-.068-.04c-.246-.162-.528-.312-.825-.435l-.034-.012q-.448-.182-.883-.399c-.097-.048-.21-.09-.327-.119l-.011-.002c-.117-.024-.217-.084-.29-.169l-.001-.001c-.138-.182-.259-.389-.355-.609l-.008-.02q-.145-.339-.314-.651-.363-.702-.702-1.427t-.651-1.452q-.217-.484-.399-.967c-.134-.354-.285-.657-.461-.942l.013.023c-.432-.736-.863-1.364-1.331-1.961l.028.038c-.463-.584-.943-1.106-1.459-1.59l-.008-.007c-.509-.478-1.057-.934-1.632-1.356l-.049-.035q-.896-.651-1.96-1.282c-.285-.168-.616-.305-.965-.393l-.026-.006-1.113-.278-.629-.048q-.314-.024-.629-.024c-.148-.078-.275-.171-.387-.279-.11-.105-.229-.204-.353-.295l-.01-.007c-.605-.353-1.308-.676-2.043-.93l-.085-.026c-.193-.113-.425-.179-.672-.179-.176 0-.345.034-.499.095l.009-.003c-.38.151-.67.458-.795.84l-.003.01c-.073.172-.115.371-.115.581 0 .368.13.705.347.968l-.002-.003q.544.725.834 1.14.217.291.448.605c.141.188.266.403.367.63l.008.021c.056.119.105.261.141.407l.003.016q.048.206.121.448.217.556.411 1.14c.141.425.297.785.478 1.128l-.019-.04q.145.266.291.52t.314.496c.065.098.147.179.241.242l.003.002c.099.072.164.185.169.313v.001c-.114.168-.191.369-.217.586l-.001.006c-.035.253-.085.478-.153.695l.008-.03c-.223.666-.351 1.434-.351 2.231 0 .258.013.512.04.763l-.003-.031c.06.958.349 1.838.812 2.6l-.014-.025c.197.295.408.552.641.787.168.188.412.306.684.306.152 0 .296-.037.422-.103l-.005.002c.35-.126.599-.446.617-.827v-.002c.048-.474.12-.898.219-1.312l-.013.067c.024-.063.038-.135.038-.211 0-.015-.001-.03-.002-.045v.002q-.012-.109.133-.206v.048q.145.339.302.677t.326.677c.295.449.608.841.952 1.202l-.003-.003c.345.372.721.706 1.127 1.001l.022.015c.212.162.398.337.566.528l.004.004c.158.186.347.339.56.454l.01.005v-.024h.048c-.039-.087-.102-.157-.18-.205l-.002-.001c-.079-.044-.147-.088-.211-.136l.005.003q-.217-.217-.448-.484t-.423-.508q-.508-.702-.969-1.467t-.871-1.555q-.194-.387-.375-.798t-.351-.798c-.049-.099-.083-.213-.096-.334v-.005c-.006-.115-.072-.214-.168-.265l-.002-.001c-.121.206-.255.384-.408.545l.001-.001c-.159.167-.289.364-.382.58l-.005.013c-.141.342-.244.739-.289 1.154l-.002.019q-.072.641-.145 1.318l-.048.024-.024.024c-.26-.053-.474-.219-.59-.443l-.002-.005q-.182-.351-.326-.69c-.248-.637-.402-1.374-.423-2.144v-.009c-.009-.122-.013-.265-.013-.408 0-.666.105-1.308.299-1.91l-.012.044q.072-.266.314-.896t.097-.871c-.05-.165-.143-.304-.265-.41l-.001-.001c-.122-.106-.233-.217-.335-.335l-.003-.004q-.169-.244-.326-.52t-.278-.544c-.165-.382-.334-.861-.474-1.353l-.022-.089c-.159-.565-.336-1.043-.546-1.503l.026.064c-.111-.252-.24-.47-.39-.669l.006.008q-.244-.326-.436-.617-.244-.314-.484-.605c-.163-.197-.308-.419-.426-.657l-.009-.02c-.048-.097-.09-.21-.119-.327l-.002-.011c-.011-.035-.017-.076-.017-.117 0-.082.024-.159.066-.223l-.001.002c.011-.056.037-.105.073-.145.039-.035.089-.061.143-.072h.002c.085-.055.188-.088.3-.088.084 0 .165.019.236.053l-.003-.001c.219.062.396.124.569.195l-.036-.013q.459.194.847.375c.298.142.552.292.792.459l-.018-.012q.194.121.387.266t.411.291h.339q.387 0 .822.037c.293.023.564.078.822.164l-.024-.007c.481.143.894.312 1.286.515l-.041-.019q.593.302 1.125.641c.589.367 1.098.743 1.577 1.154l-.017-.014c.5.428.954.867 1.38 1.331l.01.012c.416.454.813.947 1.176 1.464l.031.047c.334.472.671 1.018.974 1.584l.042.085c.081.154.163.343.234.536l.011.033q.097.278.217.57.266.605.57 1.221t.57 1.198l.532 1.161c.187.406.396.756.639 1.079l-.011-.015c.203.217.474.369.778.422l.008.001c.368.092.678.196.978.319l-.047-.017c.143.065.327.134.516.195l.04.011c.212.065.396.151.565.259l-.009-.005c.327.183.604.363.868.559l-.021-.015q.411.302.822.57.194.145.651.423t.484.52c-.114-.004-.249-.007-.384-.007-.492 0-.976.032-1.45.094l.056-.006c-.536.072-1.022.203-1.479.39l.04-.014c-.113.049-.248.094-.388.129l-.019.004c-.142.021-.252.135-.266.277v.001c.061.076.11.164.143.26l.002.006c.034.102.075.19.125.272l-.003-.006c.119.211.247.393.391.561l-.004-.005c.141.174.3.325.476.454l.007.005q.244.194.508.399c.161.126.343.25.532.362l.024.013c.284.174.614.34.958.479l.046.016c.374.15.695.324.993.531l-.016-.011q.291.169.58.375t.556.399c.073.072.137.152.191.239l.003.005c.091.104.217.175.36.193h.003v-.048c-.088-.067-.153-.16-.184-.267l-.001-.004c-.025-.102-.062-.191-.112-.273l.002.004zm-18.576-19.205q-.194 0-.363.012c-.115.008-.222.029-.323.063l.009-.003v.024h.048q.097.145.244.326t.266.351l.387.798.048-.024c.113-.082.2-.192.252-.321l.002-.005c.052-.139.082-.301.082-.469 0-.018 0-.036-.001-.054v.003c-.045-.044-.082-.096-.108-.154l-.001-.003-.081-.182c-.053-.084-.127-.15-.214-.192l-.003-.001c-.094-.045-.174-.102-.244-.169z"></path></g></svg>
+              <h5 className="text-sm lg:text-md font-medium mt-2">MySQL</h5>
+            </div>
           </div>
         </div>
       </section>
       <section className='concat my-8' id='concat'>
         <div className='contac-content bg-bunker-950/50 px-6 lg:px-8 py-10 rounded-md ring-1 ring-bunker-500/20 ring-[#e26767]'>
           <h2 className='contac-tittle text-2xl md:text-4xl font-medium'>Contacto</h2>
-          <form className="max-w-sm mx-auto">
+          <form className="max-w-sm mx-auto" action="https://formsubmit.co/51129ba5fccf8e67f57e8eee0e49c479" method="POST">
             <label htmlFor="website-admin" className="block mb-2 text-sm font-medium  dark:text-white">Nombre</label>
             <div className="flex">
               <span className="inline-flex items-center px-3 text-sm bg-[#4e4242] border border-e-0 border-[#e26767] rounded-s-md dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
@@ -115,9 +134,8 @@ export const Home = () => {
                   <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z"/>
                 </svg>
               </span>
-              <input type="text" id="website-admin" className=" rounded-none rounded-e-lg bg-[#4e4242] border border-[#e26767]  focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm p-2.5 placeholder:text-[#CDD9E4]" placeholder="Tu nombre"/>
+              <input type="text" id="website-admin" name='name' className=" rounded-none rounded-e-lg bg-[#4e4242] border border-[#e26767]  focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm p-2.5 placeholder:text-[#CDD9E4]" placeholder="Tu nombre"/>
             </div>
-
 
             <label htmlFor="emailMess" className="block mb-2 mt-4 text-sm font-medium">Correo Electrónico</label>
             <div className="flex">
@@ -127,18 +145,21 @@ export const Home = () => {
                   <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
                 </svg>
               </span>
-              <input type="email" id="emailMess" className=" rounded-none rounded-e-lg bg-[#4e4242] border border-[#e26767]  focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm p-2.5 placeholder:text-[#CDD9E4] " placeholder="tucorreo@dominio.com"/>
+              <input type="email" name='email' id="emailMess" className=" rounded-none rounded-e-lg bg-[#4e4242] border border-[#e26767]  focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm p-2.5 placeholder:text-[#CDD9E4] " placeholder="tucorreo@dominio.com"/>
             </div>
 
             <label htmlFor="message" className="block mb-2 mt-4 text-sm font-medium  dark:text-white">Mensaje</label>
-            <textarea id="message" rows="4" className="block p-2.5 w-full text-sm  bg-[#4e4242] rounded-lg border border-[#e26767] placeholder:text-[#CDD9E4] focus:ring-blue-500 focus:border-blue-500 " placeholder="Escribe tu mensaje..."></textarea>
+            <textarea id="message" name='comments' rows="4" className="block p-2.5 w-full text-sm  bg-[#4e4242] rounded-lg border border-[#e26767] placeholder:text-[#CDD9E4] focus:ring-blue-500 focus:border-blue-500 " placeholder="Escribe tu mensaje..."></textarea>
+            
             <div className="flex items-start mb-6 mt-4">
               <div className="flex items-center h-5">
                 <input id="terms" type="checkbox" name="spam" value="True" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required=""/>
               </div>
               <label htmlFor="terms" className="ml-2 text-sm font-medium  dark:text-gray-300">Confirmo que no es un correo spam.</label>
             </div>
+
             <button type="submit" className="text-[#CDD9E4] bg-[#e26767] hover:bg-[#927676] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Enviar</button>
+            <input type="hidden" name='_next' value='http://localhost:5173/' />
           </form>
         </div>
       </section>
