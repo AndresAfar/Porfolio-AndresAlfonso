@@ -160,6 +160,8 @@ export const Home = () => {
 
             <button type="submit" className="text-[#CDD9E4] bg-[#e26767] hover:bg-[#927676] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Enviar</button>
             <input type="hidden" name='_next' value='https://andresalfonso.com/' />
+            <input type="hidden" name="_subject" value="Correo Contacto portafolio"></input>
+            <input type="hidden" name="_template" value="table"></input>
           </form>
         </div>
       </section>
