@@ -23,6 +23,10 @@
   margin: auto;
 }
 
+ul{
+  align-items: center;
+  font-size: medium !important;
+}
 
 li{
   color: rgb(188, 188, 192);
