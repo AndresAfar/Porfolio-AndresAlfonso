@@ -7,7 +7,7 @@ export const Home = () => {
       <section className='perfil'>
         <div className='perfil-content grid gap-3'>
           <div className='perfil-data'>
-            <img className="circular--square my-5 sm:w-80 sm:h-80" />
+            <img className="circular--square my-5 sm:size-80" />
             <h1 className='text-4xl lg:text-6xl font-bold text-bunker-100'>Andres Alfonso</h1>
             <div className='flex gap-5 mt-4 mb-3'>
               <a href="https://github.com/AndresAfar" className='hover:-translate-y-0.5'><svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-github text-red-500/80" width="28" height="28" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" data-astro-cid-odypcp2q=""><path stroke="none" d="M0 0h24v24H0z" fill="none" data-astro-cid-odypcp2q=""></path><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" data-astro-cid-odypcp2q=""></path></svg></a>
