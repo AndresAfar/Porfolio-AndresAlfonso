@@ -21,7 +21,7 @@ export const Home = () => {
           </article>
         </div>
       </section>
-      <section className='about-me my-8' id='about-me'>
+      <section className='about-me my-10' id='about-me'>
         <div className='about-me-content grid gap-3 bg-bunker-950/50 px-6 lg:px-8 py-10 rounded-md ring-1 ring-bunker-500/20 ring-[#e26767]'>
           <h2 className='about-me-tittle text-2xl md:text-4xl font-medium'>Sobre mi</h2>
           <div className='about-me-item text-[16px] md:text-[20px] text-pretty'>
@@ -30,7 +30,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <section className='projects my-8' id='projects'>
+      <section className='projects my-10' id='projects'>
         <div className='projects-content bg-bunker-950/50 px-6 lg:px-8 py-10 rounded-md ring-1 ring-bunker-500/20 ring-[#e26767]'>
           <h2 className='projects-me-tittle text-2xl md:text-4xl font-medium'>Proyectos</h2>
           <div className='grid gap-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
@@ -87,7 +87,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <section className='skills my-8' id='skills'>
+      <section className='skills my-10' id='skills'>
         <div className='skills-content bg-bunker-950/50 px-6 lg:px-8 py-10 rounded-md ring-1 ring-bunker-500/20 ring-[#e26767]'>
           <h2 className='skills-tittle text-2xl md:text-4xl font-medium'>Habilidades</h2>
           <div className="mt-8 grid grid-cols-2 lg:grid-cols-4 sm:grid-cols-3 gap-2 lg:gap-6 group/list">
@@ -123,7 +123,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <section className='concat my-8' id='concat'>
+      <section className='concat my-10' id='concat'>
         <div className='contac-content bg-bunker-950/50 px-6 lg:px-8 py-10 rounded-md ring-1 ring-bunker-500/20 ring-[#e26767]'>
           <h2 className='contac-tittle text-2xl md:text-4xl font-medium'>Contacto</h2>
           <form className="max-w-sm mx-auto" action="https://formsubmit.co/51129ba5fccf8e67f57e8eee0e49c479" method="POST">
