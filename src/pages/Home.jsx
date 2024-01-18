@@ -34,7 +34,7 @@ export const Home = () => {
         <div className='projects-content bg-bunker-950/50 px-6 lg:px-8 py-10 rounded-md ring-1 ring-bunker-500/20 ring-[#e26767]'>
           <h2 className='projects-me-tittle text-2xl md:text-4xl font-medium'>Proyectos</h2>
           <div className='grid gap-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-            <div className="my-8  sm:w-full min-w-[105px] rounded-xl shadow-lg dark:shadow-gray-900 bg-[#4e4242] dark:bg-gray-800 duration-300 hover:-translate-y-1 border-2 border-[#e26767]">
+            <div className="my-8 mx-4 sm:w-full min-w-[105px] rounded-xl shadow-lg dark:shadow-gray-900 bg-[#4e4242] dark:bg-gray-800 duration-300 hover:-translate-y-1 border-2 border-[#e26767]">
               <a _href="link" className="cursor-pointer ">
                 <figure>
                   <a href="https://github.com/AndresAfar/orddoOld" target="_blank">
@@ -42,7 +42,7 @@ export const Home = () => {
                   </a>
                   <figcaption className="p-4 block">
                     <a href="https://github.com/AndresAfar/orddoOld" target='_blank' className="text-[20px] md:text-[20px] mb-4 font-bold leading-relaxed  dark:text-gray-300 hover:underline">OrderPos</a>
-                    <p className='text-sm sm:text-base leading-5 dark:text-gray-400'> Sistema POS para toma de pedidos de restaurante.</p>
+                    <p className='text-sm sm:text-base leading-5 dark:text-gray-400'> Proyecto final de grado de Sistema POS para toma de pedidos de restaurante.</p>
                     <div className='inline-flex flex-wrap justify-between p-2 gap-2'>
                       <div className='rounded-full py-1 text-sm font-medium px-3  text-red-300 bg-red-300/10'>
                         PHP
@@ -58,32 +58,7 @@ export const Home = () => {
                 </figure>
               </a>
             </div>
-            <div className="my-8  sm:w-full min-w-[105px] rounded-xl shadow-lg dark:shadow-gray-900 bg-[#4e4242] dark:bg-gray-800 duration-300 hover:-translate-y-1 border-2 border-[#e26767]">
-              <a _href="link" className="cursor-pointer">
-                <figure>
-                  <a href="https://pypi.org/project/django-times/" target="_blank">
-                    <img className="rounded-t-lg h-48 w-full object-cover object-center" src="https://images.ctfassets.net/23aumh6u8s0i/6ubUHRD1qfolOVHxiBfjZ7/4e704f48dc5b0104d0c380fec1fe9b9e/django" alt="Django Times"/>
-                  </a>
-                  <figcaption className="p-4">
-                    <p className="text-sm sm:text-lg mb-4 font-bold leading-relaxed  dark:text-gray-300">asdasdsad</p>
-                    <small className="text-xs sm:text-base leading-5  dark:text-gray-400"> asdasdasd</small>
-                  </figcaption>
-                </figure>
-              </a>
-            </div>
-            <div className="my-8  sm:w-full min-w-[105px] rounded-xl shadow-lg dark:shadow-gray-900 bg-[#4e4242] dark:bg-gray-800 duration-300 hover:-translate-y-1 border-2 border-[#e26767]">
-              <a _href="link" className="cursor-pointer">
-                <figure>
-                <a href="https://pypi.org/project/django-times/" target="_blank">
-                        <img className="rounded-t-lg h-48 w-full object-cover object-center" src="https://images.ctfassets.net/23aumh6u8s0i/6ubUHRD1qfolOVHxiBfjZ7/4e704f48dc5b0104d0c380fec1fe9b9e/django" alt="Django Times"/>
-                    </a>
-                  <figcaption className="p-4">
-                    <p className="text-sm sm:text-lg mb-4 font-bold leading-relaxed  dark:text-gray-300">asdasdsad</p>
-                    <small className="text-xs sm:text-base leading-5  dark:text-gray-400"> asdasdasd</small>
-                  </figcaption>
-                </figure>
-              </a>
-            </div>
+            
           </div>
         </div>
       </section>
