@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { StatusWork } from '../components/StatusWork'
+
 export const Home = () => {
 
   return (
@@ -7,8 +9,10 @@ export const Home = () => {
       <section className='perfil'>
         <div className='perfil-content grid gap-3'>
           <div className='perfil-data mt-10'>
-            <img className="circular--square my-5 sm:size-50" />
-            <h1 className='text-4xl lg:text-6xl font-bold text-bunker-100'>Andres Alfonso</h1>
+            <img className="circular--square mt-24 mb-5 sm:size-45" />
+            <div className='inline-flex'>
+              <h1 className='text-white text-3xl md:text-4xl lg:text-5xl font-bold text-bunker-100 flex flex-grow gap-x-4'>Andres Alfonso <StatusWork/></h1>
+            </div>
             <div className='flex gap-5 mt-4 mb-3'>
               <a href="https://github.com/AndresAfar" className='hover:-translate-y-0.5'><svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-github text-red-500/80" width="28" height="28" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" data-astro-cid-odypcp2q=""><path stroke="none" d="M0 0h24v24H0z" fill="none" data-astro-cid-odypcp2q=""></path><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" data-astro-cid-odypcp2q=""></path></svg></a>
               <a href="https://www.linkedin.com/in/andres-alfonso-rojas-web-developer/" className='hover:-translate-y-0.5'><svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-linkedin text-red-500/80" width="28" height="28" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" data-astro-cid-odypcp2q=""><path stroke="none" d="M0 0h24v24H0z" fill="none" data-astro-cid-odypcp2q=""></path><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" data-astro-cid-odypcp2q=""></path><path d="M8 11l0 5" data-astro-cid-odypcp2q=""></path><path d="M8 8l0 .01" data-astro-cid-odypcp2q=""></path><path d="M12 16l0 -5" data-astro-cid-odypcp2q=""></path><path d="M16 16v-3a2 2 0 0 0 -4 0" data-astro-cid-odypcp2q=""></path></svg></a>
@@ -21,7 +25,7 @@ export const Home = () => {
           </article>
         </div>
       </section>
-      <section className='about-me my-10' id='about-me'>
+      <section className='about-me my-20' id='about-me'>
         <div className='about-me-content grid gap-3 bg-bunker-950/50 px-6 lg:px-8 py-10 rounded-md ring-1 ring-bunker-500/20 ring-[#e26767]'>
           <h2 className='about-me-tittle text-2xl md:text-4xl font-medium'>Sobre mi</h2>
           <div className='about-me-item text-[16px] md:text-[20px] text-pretty'>
@@ -30,7 +34,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <section className='projects my-10' id='projects'>
+      <section className='projects my-20' id='projects'>
         <div className='projects-content bg-bunker-950/50 px-6 lg:px-8 py-10 rounded-md ring-1 ring-bunker-500/20 ring-[#e26767]'>
           <h2 className='projects-me-tittle text-2xl md:text-4xl font-medium'>Proyectos</h2>
           <div className='grid gap-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
@@ -62,7 +66,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <section className='skills my-10' id='skills'>
+      <section className='skills my-20' id='skills'>
         <div className='skills-content bg-bunker-950/50 px-6 lg:px-8 py-10 rounded-md ring-1 ring-bunker-500/20 ring-[#e26767]'>
           <h2 className='skills-tittle text-2xl md:text-4xl font-medium'>Habilidades</h2>
           <div className="mt-8 grid grid-cols-2 lg:grid-cols-4 sm:grid-cols-3 gap-2 lg:gap-6 group/list">
@@ -98,7 +102,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <section className='concat my-10' id='concat'>
+      <section className='concat my-20' id='concat'>
         <div className='contac-content bg-bunker-950/50 px-6 lg:px-8 py-10 rounded-md ring-1 ring-bunker-500/20 ring-[#e26767]'>
           <h2 className='contac-tittle text-2xl md:text-4xl font-medium'>Contacto</h2>
           <form className="max-w-sm mx-auto" action="https://formsubmit.co/51129ba5fccf8e67f57e8eee0e49c479" method="POST">
