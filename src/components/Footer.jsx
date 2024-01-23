@@ -11,7 +11,10 @@ export const Footer = () => {
                 <a href="#about-me" className="hover:underline me-4 md:me-6">Sobre mi</a>
             </li>
             <li>
-                <a href="#concat" className="hover:underline">Contacto</a>
+                <a href="#projects" className="hover:underline me-4 md:me-6">Proyectos</a>
+            </li>
+            <li>
+                <a href="#concat" className="hover:underline me-4 md:me-6">Contacto</a>
             </li>
         </ul>
         </div>
