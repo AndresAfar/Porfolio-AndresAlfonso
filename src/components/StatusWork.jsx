@@ -2,7 +2,7 @@ import React from "react";
 
 export const StatusWork = () => {
   return (
-    <a href="" className="flex justify-center items-center hover:scale-105 transition">
+    <a href="https://www.linkedin.com/in/andres-alfonso-rojas-web-developer/" className="flex justify-center items-center hover:scale-105 transition">
         <div className="cursor-pointer text-sm px-3 py-1 font-medium text-white rounded-full bg-slate-950/90 ring-1 ring-bunker-500/20 ring-[#79c97d]">
             Disponible para trabajar
         </div>
