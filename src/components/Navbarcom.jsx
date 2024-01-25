@@ -7,7 +7,7 @@ export function Component() {
   return (
     <header>
 
-    <Navbar className='bg-[#2c2c2c]'>
+    <Navbar className='bg-transparent'>
       <NavbarBrand as={Link} className='flex space-x-3 rtl:space-x-reverse' >
         <span className="self-center text-2xl font-semibold whitespace-nowrap ">Andres Alfonso</span>
       </NavbarBrand>
