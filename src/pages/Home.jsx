@@ -9,7 +9,7 @@ export const Home = () => {
       <section className='perfil'>
         <div className='perfil-content grid gap-3'>
           <div className='perfil-data mt-10'>
-            <img className="circular--square mt-24 mb-5 sm:size-45" />
+            <img className="circular--square mt-24 mb-5 size-28 sm:size-52" />
             <div className='inline-flex'>
               <h1 className='text-white text-3xl md:text-4xl lg:text-5xl font-bold text-bunker-100 flex flex-grow gap-x-4'>Andres Alfonso <StatusWork/></h1>
             </div>
