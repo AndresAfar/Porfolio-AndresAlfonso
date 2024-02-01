@@ -5,6 +5,9 @@ import './index.css'
 
 import {Navbar} from './components/Navbar.jsx' 
 
+import { Footer } from './components/Footer.jsx'
+import { Component } from './components/Navbarcom.jsx'
+
 
 import { BrowserRouter } from 'react-router-dom'
 
