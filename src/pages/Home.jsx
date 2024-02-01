@@ -25,8 +25,8 @@ export const Home = () => {
           </article>
         </div>
       </section>
-      <section className='about-me my-20' id='about-me'>
-        <div className='about-me-content grid gap-3 bg-bunker-950/50 px-6 lg:px-8 py-10 rounded-md ring-1 ring-bunker-500/20 ring-[#e26767]'>
+      <section className='about-me my-14' id='about-me'>
+        <div className='about-me-content grid gap-3 bg-bunker-950/50 py-20'>
           <h2 className='about-me-tittle text-2xl md:text-4xl font-medium'>Sobre mi</h2>
           <div className='about-me-item text-[16px] md:text-[20px] text-pretty'>
             <p>Mi viaje está marcado por la pasión por el skateboarding, una forma de expresión que me enseñó a abrazar el riesgo y la innovación. Además, mi amor por los videojuegos de estrategia en tiempo real ha cultivado mi habilidad para pensar de manera táctica y resolver problemas de forma creativa. Combinando estas experiencias con mi dedicación al desarrollo web, encuentro una sinergia única entre la creatividad, la lógica y la tecnología.</p>
@@ -34,27 +34,27 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <section className='projects my-20' id='projects'>
-        <div className='projects-content bg-bunker-950/50 px-6 lg:px-8 py-10 rounded-md ring-1 ring-bunker-500/20 ring-[#e26767]'>
+      <section className='projects my-14' id='projects'>
+        <div className='projects-content bg-bunker-950/50 py-20'>
           <h2 className='projects-me-tittle text-2xl md:text-4xl font-medium'>Proyectos</h2>
-          <div className='grid gap-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-            <div className="my-8 mx-4 sm:w-full min-w-[105px] rounded-xl shadow-lg dark:shadow-gray-900 bg-[#4e4242] dark:bg-gray-800 duration-300 hover:-translate-y-1 border-2 border-[#e26767]">
+          <div className='grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+            <div className="my-8 mx-2 sm:w-full min-w-[105px] rounded-xl shadow-lg text-neutral-200 hover:bg-gray-950/70 dark:text-white dark:bg-[#4e4242] duration-300 hover:-translate-y-1 border-2 border-gray-950/70 dark:border-[#e26767]">
               <a _href="link" className="cursor-pointer ">
                 <figure>
                   <a href="https://github.com/AndresAfar/orddoOld" target="_blank">
                     <img className="proorddo rounded-t-lg h-48 w-full aspect-auto" loading='lazy'/>
                   </a>
                   <figcaption className="p-4 block">
-                    <a href="https://github.com/AndresAfar/orddoOld" target='_blank' className="text-[20px] md:text-[20px] mb-4 font-bold leading-relaxed  dark:text-gray-300 hover:underline">OrderPos</a>
-                    <p className='text-sm sm:text-base leading-5 dark:text-gray-400'> Proyecto final de grado de Sistema POS para toma de pedidos de restaurante.</p>
-                    <div className='inline-flex flex-wrap justify-between p-2 gap-2'>
-                      <div className='rounded-full py-1 text-sm font-medium px-3  text-red-300 bg-red-300/10'>
+                    <a href="https://github.com/AndresAfar/orddoOld" target='_blank' className="text-[20px] md:text-[20px] mb-4 font-bold leading-relaxed  dark:text-white hover:underline">OrderPos</a>
+                    <p className='text-sm sm:text-base leading-5 dark:text-white'> Proyecto final de grado de Sistema POS para toma de pedidos de restaurante.</p>
+                    <div className='flex flex-wrap py-2 gap-2'>
+                      <div className='rounded-full py-1 text-sm font-medium px-3  text-white bg-[#7A86B8]'>
                         PHP
                       </div>
-                      <div className='rounded-full py-1 text-sm font-medium px-3  text-red-300 bg-red-300/10'>
+                      <div className='rounded-full py-1 text-sm font-medium px-3  text-white bg-[#ECDA68]'>
                         JavaScript
                       </div>
-                      <div className='rounded-full py-1 text-sm font-medium px-3  text-red-300 bg-red-300/10'>
+                      <div className='rounded-full py-1 text-sm font-medium px-3  text-white bg-[#8211FA]'>
                         Bootstrap
                       </div>
                     </div>
@@ -62,12 +62,35 @@ export const Home = () => {
                 </figure>
               </a>
             </div>
-            
+            <div className="my-8 mx-2 sm:w-full min-w-[105px] rounded-xl shadow-lg text-neutral-200 hover:bg-gray-950/70 dark:text-white dark:bg-[#4e4242] duration-300 hover:-translate-y-1 border-2 border-gray-950/70 dark:border-[#e26767]">
+              <a _href="link" className="cursor-pointer ">
+                <figure>
+                  <a href="https://github.com/AndresAfar/orddoOld" target="_blank">
+                    <img className="proorddo rounded-t-lg h-48 w-full aspect-auto" loading='lazy'/>
+                  </a>
+                  <figcaption className="p-4 block">
+                    <a href="https://github.com/AndresAfar/orddoOld" target='_blank' className="text-[20px] md:text-[20px] mb-4 font-bold leading-relaxed  dark:text-white hover:underline">EventsView</a>
+                    <p className='text-sm sm:text-base leading-5 dark:text-white'>Aplicacion web de visualizacion creacion y modificacion de eventos</p>
+                    <div className='flex flex-wrap py-2 gap-2'>
+                      <div className='rounded-full py-1 text-sm font-medium px-3  text-white bg-[#0C4B33]'>
+                        Django
+                      </div>
+                      <div className='rounded-full py-1 text-sm font-medium px-3  text-white bg-[#087EA4]'>
+                        ReactJs
+                      </div>
+                      <div className='rounded-full py-1 text-sm font-medium px-3  text-white bg-[#38BDF8]'>
+                        Tailwind
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
           </div>
         </div>
       </section>
-      <section className='skills my-20' id='skills'>
-        <div className='skills-content bg-bunker-950/50 px-6 lg:px-8 py-10 rounded-md ring-1 ring-bunker-500/20 ring-[#e26767]'>
+      <section className='skills my-14' id='skills'>
+        <div className='skills-content bg-bunker-950/50 px-6 lg:px-8 py-6'>
           <h2 className='skills-tittle text-2xl md:text-4xl font-medium'>Habilidades</h2>
           <div className="mt-8 grid grid-cols-2 lg:grid-cols-4 sm:grid-cols-3 gap-2 lg:gap-6 group/list">
             <div className="text-red-300/80 p-2 bg-bunker-800/10 rounded-lg flex flex-col items-center justify-center">
@@ -102,8 +125,8 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <section className='concat my-20' id='concat'>
-        <div className='contac-content bg-bunker-950/50 px-6 lg:px-8 py-10 rounded-md ring-1 ring-bunker-500/20 ring-[#e26767]'>
+      <section className='concat my-16' id='concat'>
+        <div className='contac-content bg-bunker-950/50 px-6 lg:px-8 py-8'>
           <h2 className='contac-tittle text-2xl md:text-4xl font-medium'>Contacto</h2>
           <form className="max-w-sm mx-auto" action="https://formsubmit.co/51129ba5fccf8e67f57e8eee0e49c479" method="POST">
             <label htmlFor="website-admin" className="block mb-2 text-sm font-medium  dark:text-white">Nombre</label>

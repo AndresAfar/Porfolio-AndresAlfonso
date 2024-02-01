@@ -7,19 +7,19 @@ export function Component() {
   return (
     <header>
 
-    <Navbar className='bg-transparent'>
+    <Navbar className='bg-gray-900 fixed w-full'>
       <NavbarBrand as={Link} className='flex space-x-3 rtl:space-x-reverse' >
         <span className="self-center text-2xl font-semibold whitespace-nowrap ">Andres Alfonso</span>
       </NavbarBrand>
       <NavbarToggle />
       <NavbarCollapse className=' p-4 md:p-0 mt-4 border border-[#e26767] rounded-lg md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0'>
-        <NavbarLink href="#about-me" className='transition border-0 py-2 px-2 md:p-0 text-[#cdd9e4] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#df9a9a] text-[#a7b4c0]' >
+        <NavbarLink href="#about-me" className='transition border-0 py-2 px-2 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#df9a9a] text-[#a7b4c0]' >
           Sobre mi
         </NavbarLink>
-        <NavbarLink href="#projects" className='transition border-0 py-2 px-2 md:p-0 text-[#cdd9e4] rounded hover:bg-gray-100 md:hover:bg-transparent  md:hover:text-[#df9a9a] text-[#a7b4c0]' >
+        <NavbarLink href="#projects" className='transition border-0 py-2 px-2 md:p-0 rounded hover:bg-gray-100 md:hover:bg-transparent  md:hover:text-[#df9a9a] text-[#a7b4c0]' >
           Proyectos
         </NavbarLink>
-        <NavbarLink href="#concat" className='transition border-0 py-2 px-2 md:p-0 text-[#cdd9e4] rounded hover:bg-gray-100 md:hover:bg-transparent  md:hover:text-[#df9a9a] text-[#a7b4c0]' >
+        <NavbarLink href="#concat" className='transition border-0 py-2 px-2 md:p-0 rounded hover:bg-gray-100 md:hover:bg-transparent  md:hover:text-[#df9a9a] text-[#a7b4c0]' >
             Contacto
         </NavbarLink>
         <NavLink to={'../assets/docs/CV_AFAR.pdf'} target='_blank' download={'CV_AndresAlfonso.pdf'} className='p-2 flex items-center gap-x-1 font-bold rounded hover:-translate-y-0.5 text-[#e26767] hover:bg-red-300/10 transition duration-150 border-2 border-red-300/80'>
