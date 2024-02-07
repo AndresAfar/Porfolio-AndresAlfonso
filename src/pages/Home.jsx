@@ -66,7 +66,7 @@ export const Home = () => {
               <a _href="link" className="cursor-pointer ">
                 <figure>
                   <a href="https://github.com/AndresAfar/orddoOld" target="_blank">
-                    <img className="proorddo rounded-t-lg h-48 w-full aspect-auto" loading='lazy'/>
+                    <img className="proeventsapp rounded-t-lg h-48 w-full aspect-auto" loading='lazy'/>
                   </a>
                   <figcaption className="p-4 block">
                     <a href="https://github.com/AndresAfar/orddoOld" target='_blank' className="text-[20px] md:text-[20px] mb-4 font-bold leading-relaxed  dark:text-white hover:underline">EventsView</a>
