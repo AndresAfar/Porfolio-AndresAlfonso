@@ -12,12 +12,10 @@ import './App.css'
 function App() {
   return (
     <>
-      <main className='App pb-2 bg-gray-900'>
-      <Component/>
+      <main className='App bg-gray-900'>
         <Routes>
           <Route path="/" element={<Home/>} />
         </Routes>
-      <Footer/>
       </main>
     </>
   )
