@@ -20,7 +20,7 @@ export const Home = () => {
             </div>
           </div>
           <article className='perfil-description text-[16px] md:text-[20px] text-pretty mb-3'>
-            <p>Desarrollador web fullstack con habilidades en frontend y backend experiencia en diseño y desarrollo de aplicaciones web utilizando tecnologías front-end y back-end. Experto en crear soluciones interactivas y funcionales.</p>
+            <p>Desarrollador web fullstack con habilidades en frontend y backend experiencia en diseño y desarrollo de aplicaciones web. Experto en crear soluciones interactivas y funcionales.</p>
             <p>Mi interés en el desarrollo web se centra en crear soluciones creativas e innovadoras  que mejoren la vida de las personas y hagan crecer los negocios. Me mantengo actualizado en las últimas tecnologías y tendencias  de industria para crear aplicaciones eficientes y escalables.</p>
           </article>
         </div>
