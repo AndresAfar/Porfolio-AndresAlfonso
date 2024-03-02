@@ -86,6 +86,27 @@ export const Home = () => {
                 </figure>
               </a>
             </div>
+            <div className="my-8 mx-2 sm:w-full min-w-[105px] rounded-xl shadow-lg  hover:bg-gray-950/70 dark:bg-[#4e4242] duration-300 hover:-translate-y-1 border-2 border-gray-950/70 dark:border-[#e26767]">
+              <a _href="link" className="cursor-pointer ">
+                <figure>
+                  <a href="https://github.com/AndresAfar/orddoOld" target="_blank">
+                    <img className="profreerailapp rounded-t-lg h-48 w-full aspect-auto" loading='lazy'/>
+                  </a>
+                  <figcaption className="p-4 block">
+                    <a href="https://github.com/AndresAfar/orddoOld" target='_blank' className="text-[20px] md:text-[20px] mb-4 font-bold leading-relaxed  dark:text-white hover:underline">FreeRail</a>
+                    <p className='text-sm sm:text-base leading-5 dark:text-white'>Aplicacion web de visualizacion de spots y skateparks para practica de deportes extremos</p>
+                    <div className='flex flex-wrap py-2 gap-2'>
+                      <div className='rounded-full py-1 text-sm font-medium px-3  text-white bg-[#087EA4]'>
+                        ReactJs
+                      </div>
+                      <div className='rounded-full py-1 text-sm font-medium px-3  text-white bg-[#38BDF8]'>
+                        Tailwind
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
           </div>
         </div>
       </section>

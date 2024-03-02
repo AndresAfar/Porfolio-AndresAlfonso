@@ -19,6 +19,10 @@
   background-image: url(./assets/img/imgNotAvailable.png);
   background-size: cover;
 }
+.profreerailapp{
+  background-image: url(./assets/img/imgFreeRail.webp);
+  background-size: cover;
+}
 
 .perfil-data{
   display: flex;
