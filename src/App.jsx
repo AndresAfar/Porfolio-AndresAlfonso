@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 
 import { Footer } from './components/Footer.jsx'
 import { Component } from './components/Navbarcom.jsx'
+import { PageCV } from './components/PageCV.jsx'
 
 import { Home } from './pages/Home'
 import './App.css'
