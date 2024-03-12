@@ -39,7 +39,7 @@ export const Home = () => {
           <h2 className='projects-me-tittle text-2xl md:text-4xl font-medium'>Proyectos</h2>
           <div className='grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
             <div className="my-8 mx-2 sm:w-full min-w-[105px] rounded-xl shadow-lg text-neutral-200 hover:bg-gray-950/70 dark:text-white dark:bg-[#4e4242] duration-300 hover:-translate-y-1 border-2 border-gray-950/70 dark:border-[#e26767]">
-              <a _href="link" className="cursor-pointer ">
+              <a _href="https://github.com/AndresAfar/orddoOld" className="cursor-pointer ">
                 <figure>
                   <a href="https://github.com/AndresAfar/orddoOld" target="_blank">
                     <img className="proorddo rounded-t-lg h-48 w-full aspect-auto" loading='lazy'/>
@@ -63,13 +63,13 @@ export const Home = () => {
               </a>
             </div>
             <div className="my-8 mx-2 sm:w-full min-w-[105px] rounded-xl shadow-lg text-neutral-200 hover:bg-gray-950/70 dark:text-white dark:bg-[#4e4242] duration-300 hover:-translate-y-1 border-2 border-gray-950/70 dark:border-[#e26767]">
-              <a _href="link" className="cursor-pointer ">
+              <a _href="https://github.com/AndresAfar/EventsApp" className="cursor-pointer ">
                 <figure>
-                  <a href="https://github.com/AndresAfar/orddoOld" target="_blank">
+                  <a href="https://github.com/AndresAfar/EventsApp" target="_blank">
                     <img className="proeventsapp rounded-t-lg h-48 w-full aspect-auto" loading='lazy'/>
                   </a>
                   <figcaption className="p-4 block">
-                    <a href="https://github.com/AndresAfar/orddoOld" target='_blank' className="text-[20px] md:text-[20px] mb-4 font-bold leading-relaxed  dark:text-white hover:underline">EventsView</a>
+                    <a href="https://github.com/AndresAfar/EventsApp" target='_blank' className="text-[20px] md:text-[20px] mb-4 font-bold leading-relaxed  dark:text-white hover:underline">EventsView</a>
                     <p className='text-sm sm:text-base leading-5 dark:text-white'>Aplicacion web de visualizacion creacion y modificacion de eventos</p>
                     <div className='flex flex-wrap py-2 gap-2'>
                       <div className='rounded-full py-1 text-sm font-medium px-3  text-white bg-[#0C4B33]'>
@@ -87,13 +87,13 @@ export const Home = () => {
               </a>
             </div>
             <div className="my-8 mx-2 sm:w-full min-w-[105px] rounded-xl shadow-lg  hover:bg-gray-950/70 dark:bg-[#4e4242] duration-300 hover:-translate-y-1 border-2 border-gray-950/70 dark:border-[#e26767]">
-              <a _href="link" className="cursor-pointer ">
+              <a _href="https://github.com/AndresAfar/FreeRail" className="cursor-pointer ">
                 <figure>
-                  <a href="https://github.com/AndresAfar/orddoOld" target="_blank">
+                  <a href="https://github.com/AndresAfar/FreeRail" target="_blank">
                     <img className="profreerailapp rounded-t-lg h-48 w-full aspect-auto" loading='lazy'/>
                   </a>
                   <figcaption className="p-4 block">
-                    <a href="https://github.com/AndresAfar/orddoOld" target='_blank' className="text-[20px] md:text-[20px] mb-4 font-bold leading-relaxed  dark:text-white hover:underline">FreeRail</a>
+                    <a href="https://github.com/AndresAfar/FreeRail" target='_blank' className="text-[20px] md:text-[20px] mb-4 font-bold leading-relaxed  dark:text-white hover:underline">FreeRail</a>
                     <p className='text-sm sm:text-base leading-5 dark:text-white'>Aplicacion web de visualizacion de spots y skateparks para practica de deportes extremos</p>
                     <div className='flex flex-wrap py-2 gap-2'>
                       <div className='rounded-full py-1 text-sm font-medium px-3  text-white bg-[#087EA4]'>
