@@ -7,7 +7,7 @@ export function Component() {
     <header>
     <Navbar className='bg-gray-900 fixed w-full'>
       <NavbarBrand as={Link} className='flex space-x-3 rtl:space-x-reverse' >
-        <span className="self-center text-2xl font-semibold whitespace-nowrap ">Andres Alfonso</span>
+        <span className="self-center text-2xl font-semibold whitespace-nowrap ">Andrés Alfonso</span>
       </NavbarBrand>
       <NavbarToggle />
       <NavbarCollapse className=' p-4 md:p-0 mt-4 border border-[#e26767] rounded-lg md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0'>
